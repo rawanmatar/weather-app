@@ -1,0 +1,121 @@
+html {
+	background:#505D6E url(../img/bg.jpg) no-repeat center center fixed; 
+	min-height:100%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+body {
+	background:transparent;
+	min-height:100%; 	
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	line-height: 1.5em;
+	font-size:14px;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#fff;
+	color:rgba(255,255,255,.8); 
+	font-weight: normal;
+}
+
+
+/********************************************************/
+/*                      Typography                      */
+/********************************************************/
+
+.h2,
+.h3 { 
+	font-family: 'Wire One', Helvetica, Arial, sans-serif;
+	font-weight:normal;
+	font-size:7em;
+	margin-bottom:15px; 
+	color:#FDF9F4; 
+	line-height:1em;
+}
+.h3 { 
+	line-height:.9em;
+	font-size:5.5em;
+	margin-top:0;
+	margin-bottom:40px; 
+
+}
+p { 
+	font-size:1.4em;
+	line-height:1.3em;
+	font-weight:normal;
+	margin-bottom:30px;
+}
+input{
+    color: #505D6E;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height:35px;
+	width:300px;
+	background: rgba(255,255,255,.5);
+	padding:5px;
+	border: none ! important;
+    box-shadow: none ! important;
+    outline: none ! important;
+}
+
+input:focus {
+    color: #505D6E;
+ 	border: none ! important;
+    box-shadow: none ! important;
+    outline: none ! important;
+}
+::-webkit-input-placeholder {
+   color: #505D6E;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #505D6E;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #505D6E;
+}
+
+:-ms-input-placeholder {  
+   color: #505D6E;
+}
+
+/********************************************************/
+/*                   UI - Buttons                       */
+/********************************************************/
+.btn{
+	color:#333;
+	text-shadow: none;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:0 none;
+
+}
+.btn-primary {
+	background: rgba(255,255,255,.2);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active {
+	background: rgba(255,255,255,.5);
+}
+
+
+
+/***********************************************************/
+/*                   other                   */
+/***********************************************************/
+
+.icon img{
+	width: 300px;
+	height:300px;
+}
+.result{
+	display:none;
+}
+#findweather{
+	padding-top:50px;
+}
