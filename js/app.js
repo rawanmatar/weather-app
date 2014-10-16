@@ -54,19 +54,19 @@ myApp.directive('weatherIcon', function() {
 		  					return baseUrl + 'sunny.gif';
 	                }else if (($scope.weatherid > 801 && $scope.weatherid < 810) || ($scope.weatherid >= 701 && $scope.weatherid < 782)) {
 	                    //cloudy
-						console.log($scope.weatherid);
+						
 	  					return baseUrl + 'cloudy.gif';
 	                }else if ($scope.weatherid >= 500 && $scope.weatherid < 532 ) {
 	                   //rainy
-							console.log($scope.id);
+						
 						return baseUrl + 'rain.gif';
 	                }else if(($scope.weatherid >= 200 && $scope.weatherid < 232) || ($scope.weatherid >=960 && $scope.weatherid <=962)) {
 	                    //thunder
-						console.log($scope.weatherid);
+					
 	 					return baseUrl + 'rain-thunder.gif';
 	                }else if($scope.weatherid == 905 || ($scope.weatherid >=957 && $scope.weatherid <=959)) {
 		                    //windy
-							console.log($scope.weatherid);
+						
 		 					return baseUrl + 'cloud-wind.gif';
 		            }else if(($scope.weatherid >=600 && $scope.weatherid <=612)) {
 				             //snow
@@ -74,7 +74,7 @@ myApp.directive('weatherIcon', function() {
 				 					return baseUrl + 'snow.gif';
 		     		}else if(($scope.weatherid >=613 && $scope.weatherid <=622)) {
 				             //snow-rain
-									console.log($scope.weatherid);
+									
 				 					return baseUrl + 'rain-snow.gif';
 				     }else{
 					return baseUrl + 'na.gif';
